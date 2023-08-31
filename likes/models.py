@@ -10,3 +10,6 @@ class LikedItem(models.Model):
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey()
 
+class Nooflikes(models.Model):
+    Count = models.PositiveIntegerField()
+
